@@ -1,0 +1,11 @@
+<div>
+    <h2>Add Student</h2>
+    <form ng-submit="$ctrl.addStudent()">
+        <input type="text" ng-model="$ctrl.student.name" placeholder="Name" required>
+        <input type="email" ng-model="$ctrl.student.email" placeholder="Email" required>
+        <input type="text" ng-model="$ctrl.student.phone" placeholder="Phone" required>
+        <input type="text" ng-model="$ctrl.student.address" placeholder="Address" required>
+        <textarea ng-model="$ctrl.student.qualifications" placeholder="Qualifications: College, Degree, Year" required></textarea>
+        <button type="submit">Add Student</button>
+    </form>
+</div>
